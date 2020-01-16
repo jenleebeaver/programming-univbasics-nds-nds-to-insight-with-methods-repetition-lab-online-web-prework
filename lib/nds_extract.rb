@@ -43,7 +43,7 @@ def total_gross(source)
 
   index = 0
   result = {}
-  result_director = []
+  total_gross = []
   while index < source.length do
     director = source[index][:name]
     result[director] = 0
