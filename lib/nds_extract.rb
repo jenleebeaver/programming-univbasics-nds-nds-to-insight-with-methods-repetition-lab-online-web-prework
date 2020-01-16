@@ -57,7 +57,7 @@ def total_gross(source)
     index += 1
   end
   p total_gross.sum
-  return result
+  return total_gross.sum
   # Write this implementation
   #
   # Should use methods:
