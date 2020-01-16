@@ -51,6 +51,7 @@ def total_gross(source)
     while movie_index < source[index][:movies].length do
     #result[director] += source[index][:movies][movie_index][:worldwide_gross]
     total = source[index][:movies][movie_index][:worldwide_gross]
+    total_gross.push(total)
     movie_index += 1
   end
     index += 1
