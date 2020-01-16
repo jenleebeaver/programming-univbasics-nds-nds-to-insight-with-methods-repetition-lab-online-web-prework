@@ -54,7 +54,7 @@ def total_gross(source)
   end
     index += 1
   end
-
+  p result 
   return result
   # Write this implementation
   #
