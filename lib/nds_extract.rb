@@ -27,7 +27,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  
+
   result = {}
   directors_index = 0
   while directors_index < source.size do
