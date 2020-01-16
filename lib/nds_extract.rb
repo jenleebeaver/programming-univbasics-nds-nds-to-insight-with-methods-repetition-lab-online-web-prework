@@ -35,7 +35,7 @@ def list_of_directors(source)
     result.push(directors_name)
     directors_index += 1
   end
-  p result 
+  p result
   return result
   # Write this implementation
 end
